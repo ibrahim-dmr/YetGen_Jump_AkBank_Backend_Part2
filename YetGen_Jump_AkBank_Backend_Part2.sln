@@ -29,11 +29,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5011E8AC-2A3B-4C50-ABC3-E58F06778BD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postman.Domain", "Postman\Core\Postman.Domain\Postman.Domain.csproj", "{A8BCF3D3-1707-4661-A21F-F087DCFDF5BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postman.Domain", "Postman\Core\Postman.Domain\Postman.Domain.csproj", "{A8BCF3D3-1707-4661-A21F-F087DCFDF5BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postman.Persistence", "Postman\Infrastructure\Postman.Persistence\Postman.Persistence.csproj", "{E46C5087-4E70-44A3-BCC2-326F063C99EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postman.Persistence", "Postman\Infrastructure\Postman.Persistence\Postman.Persistence.csproj", "{E46C5087-4E70-44A3-BCC2-326F063C99EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postman.API", "Postman\Presentation\Postman.API\Postman.API.csproj", "{B6BFC28B-4371-476A-B841-180526C65865}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postman.API", "Postman\Presentation\Postman.API\Postman.API.csproj", "{B6BFC28B-4371-476A-B841-180526C65865}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashingAndFluentAPI", "HashingAndFluentAPI", "{704AC54E-F0C5-40CA-9530-9D7D0D1FD010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingAndFluentAPI.Domain", "HashingAndFluentAPI\Domain\HashingAndFluentAPI.Domain.csproj", "{D0C989F7-3351-4BD4-BF6F-C2893F10C86D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingAndFluentAPI.Persistence", "HashingAndFluentAPI\HashingAndFluentAPI.Persistence\HashingAndFluentAPI.Persistence.csproj", "{71F9A5CD-C364-45F7-9C36-2974533ECC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingAndFluentAPI.Api", "HashingAndFluentAPI\HashingAndFluentAPI.Api\HashingAndFluentAPI.Api.csproj", "{70614AFD-62B3-410D-8102-EEE85477952D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +81,18 @@ Global
 		{B6BFC28B-4371-476A-B841-180526C65865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6BFC28B-4371-476A-B841-180526C65865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6BFC28B-4371-476A-B841-180526C65865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C989F7-3351-4BD4-BF6F-C2893F10C86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C989F7-3351-4BD4-BF6F-C2893F10C86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C989F7-3351-4BD4-BF6F-C2893F10C86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C989F7-3351-4BD4-BF6F-C2893F10C86D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F9A5CD-C364-45F7-9C36-2974533ECC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F9A5CD-C364-45F7-9C36-2974533ECC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F9A5CD-C364-45F7-9C36-2974533ECC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F9A5CD-C364-45F7-9C36-2974533ECC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70614AFD-62B3-410D-8102-EEE85477952D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70614AFD-62B3-410D-8102-EEE85477952D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70614AFD-62B3-410D-8102-EEE85477952D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70614AFD-62B3-410D-8102-EEE85477952D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +110,9 @@ Global
 		{A8BCF3D3-1707-4661-A21F-F087DCFDF5BE} = {CFC45F5D-C760-4CA7-9E81-88CE825C27C5}
 		{E46C5087-4E70-44A3-BCC2-326F063C99EB} = {7FBD67A6-0026-462F-AB3F-5F2E79CF6634}
 		{B6BFC28B-4371-476A-B841-180526C65865} = {5011E8AC-2A3B-4C50-ABC3-E58F06778BD4}
+		{D0C989F7-3351-4BD4-BF6F-C2893F10C86D} = {704AC54E-F0C5-40CA-9530-9D7D0D1FD010}
+		{71F9A5CD-C364-45F7-9C36-2974533ECC87} = {704AC54E-F0C5-40CA-9530-9D7D0D1FD010}
+		{70614AFD-62B3-410D-8102-EEE85477952D} = {704AC54E-F0C5-40CA-9530-9D7D0D1FD010}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B5E5860-820D-4C58-BF6D-2250EC202AAC}
